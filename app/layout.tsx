@@ -2,8 +2,9 @@ import './globals.css'
 import AuthContext from './context/AuthContext'
 import ActiveStatus from './components/ActiveStatus'
 import ToasterContext from './context/ToasterContext'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'WebChat',
   description: '',
 }
